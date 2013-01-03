@@ -4,12 +4,18 @@ This repository contains some Natural Language Processing tools.
 
 2. Spelling auto correction:  
     Implements the following language models:
-     • Laplace Unigram Language Model: a unigram model with add-one smoothing. Treat out-of-vocabulary items as a word which was seen zero times in training.
+     • Laplace Unigram Language Model: a unigram model with add-one smoothing. Treat out-of-vocabulary items as a word                                                                                                                                                                                                                                                                                                                                                                                                                                      
+       which was seen zero times in training.
      • Laplace Bigram Language Model: a bigram model with add-one smoothing.
-     • Stupid Backoff Language Model: use an unsmoothed bigram model combined with backoff to an add-one smoothed unigram model
-     • Custom Language Model: implement a language model of your choice. Ideas include interpolated Kneser-Ney, Good-Turing, linear interpolated, trigram, or any other language model you can come up with. You should not train your models on different training data than supplied. Your goal is for your custom language model to perform better than any of the other three language models we ask you to implement.
+     • Stupid Backoff Language Model: use an unsmoothed bigram model combined with backoff to an add-one smoothed 
+       unigram model
+     • Custom Language Model: implement a language model of your choice. Ideas include interpolated Kneser-Ney, Good
+       -Turing, linear interpolated, trigram, or any other language model you can come up with. You should not train 
+        your models on different training data than supplied. Your goal is for your custom language model to perform 
+        better than any of the other three language models we ask you to implement.
 
-3. Sentiment Analysis: trained a Naïve Bayes classifier on IMDB dataset to classify the movie reviews as positive or negative.
+3. Sentiment Analysis: trained a Naïve Bayes classifier on IMDB dataset to classify the movie reviews as positive or 
+   negative.
 
 4. Named Entity Recognition:  build a maximum entropy Markov model (MEMM) for identifying person names in newswire text.
 
@@ -17,4 +23,6 @@ This repository contains some Natural Language Processing tools.
 
 6. CKY Parsing Algorithm: build a probabilistic parser by implementing the CKY parser.
 
-7. Information Retrieval: build an inverted index to quickly retrieve documents that match queries and then make it even better by using term-frequency inverse-document-frequency weighting and cosine similarity to compare queries to your data set.
+7. Information Retrieval: build an inverted index to quickly retrieve documents that match queries and then make it even 
+   better by using term-frequency inverse-document-frequency weighting and cosine similarity to compare queries to your 
+   data set.
